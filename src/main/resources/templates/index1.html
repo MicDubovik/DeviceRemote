@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Device remote</title>
+    <link  rel="stylesheet" href="../static/bootstrap.css" th:href="@{/bootstrap.css}" />
+    <script type="text/javascript" src="/static/angular.min.js" th:src="@{/angular.min.js}"></script>
+    <script type="text/javascript" src="/static/app/app.module.js" th:src="@{/app/app.module.js}"></script>
+    <script type="text/javascript" src="/static/app/devices.controller.js" th:src="@{/app/devices.controller.js}"></script>
+
+</head>
+<body ng-app="app" ng-controller="DeviceCtrl as bc">
+
+<header>
+
+</header>
+    <div class="container">
+        <h2>Please enter device.</h2>
+        <form class="form-horizontal" >
+            <div class="form-group">
+                <label class="control-label col-sm-2" >Device:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="title" placeholder="Enter device" ng-model="device"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default" ng-click="bc.setValue(device);hide=false" >Send</button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>

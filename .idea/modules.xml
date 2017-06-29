@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestRESTBookVoting.iml" filepath="$PROJECT_DIR$/TestRESTBookVoting.iml" />
+      <module fileurl="file://D:\temp\Git\TestRESTSelector\TestRESTBookVoting.iml" filepath="D:\temp\Git\TestRESTSelector\TestRESTBookVoting.iml" />
+    </modules>
+  </component>
+</project>
